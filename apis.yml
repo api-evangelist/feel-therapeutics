@@ -1,22 +1,78 @@
 aid: feel-therapeutics
 name: Feel Therapeutics
-description: Feel Therapeutics is a company surfaced as a portfolio company of anthemis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Feel Therapeutics, an IQVIA business, is a Digital Precision Medicine company
+  on a mission to reinvent how mental health is diagnosed, managed and cared for
+  by bringing objective data, continuous passive measurement and novel digital
+  biomarkers into mental healthcare. Rather than relying on episodic, subjective
+  self-reported questionnaires, Feel develops digital biomarkers from wearable
+  and passive sensor data to enable continuous, objective monitoring. Its
+  solutions span the Feel Digital Precision Medicine Platform (DPMP), Feel DTx
+  precision digital therapeutics, drug-plus / beyond-the-pill programs, and a
+  wearable monitoring device. The company partners with pharma and biotech to
+  advance clinical development, real-world evidence (RWE), and commercialization
+  strategies, and has run 20+ research studies with 3000+ participants.
 url: https://raw.githubusercontent.com/api-evangelist/feel-therapeutics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/62750c88c7a91d8eabe34153_transfparentfeeliconlarge.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
+x-parent-company: IQVIA
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mental Health
+- Digital Health
+- Digital Therapeutics
+- Digital Biomarkers
+- Precision Medicine
+- Healthcare
+- Remote Patient Monitoring
+- Wearables
+- IQVIA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/feel-therapeutics-domain-security.yml
+- type: Website
+  url: https://feeltherapeutics.com/
+- type: About
+  url: https://feeltherapeutics.com/about-feel
+- type: Blog
+  url: https://feeltherapeutics.com/blog
+- type: Careers
+  url: https://feeltherapeutics.com/careers
+- type: Press
+  url: https://feeltherapeutics.com/press
+- type: Support
+  url: https://feeltherapeutics.com/#contact
+- type: TermsOfService
+  url: https://feeltherapeutics.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.iqvia.com/about-us/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
